@@ -18,7 +18,7 @@ def college_chatbot():
 
         # Rule 2: Check for questions about college timings
         elif "timing" in user_input or "hours" in user_input:
-            print("Bot: The college is open from 9 AM to 5 PM, Monday to Friday.")
+            print("Bot: The college is open from 9 AM to 5 PM, [ Monday to Friday ].")
 
         elif "name" in user_input or "college name" in user_input:
             print("College name is : New Horizon College of engineering ")
@@ -33,7 +33,7 @@ def college_chatbot():
             print("Bot: We offer courses in Artifical Intelligence ,Computer Science, Data science,Business etc .")
 
         elif "teachers" in user_input or "faculty" in user_input:
-            print("Teachers are highly educated esapecially [ Shravya Shetty Mam ] (AI Teacher) 🚀")
+            print("Teachers are highly educated especially [ Shravya Shetty Mam ] (AI Teacher) 🚀")
 
 
         # Rule 5: Check if the user wants to exit
